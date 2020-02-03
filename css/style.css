@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*footer fit to bottom, and header to top*/
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Raleway;
+    /* font-size: 10px; */
+    color: rgb(34, 34, 34);
+    /* margin: 0; */
+    background-color: black;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.header,
+.info,
+.footer {
+    flex-shrink: 0;
+}
+
+
+
+
+h1 {
+    font-size: 5.2rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+/***************GERNERAL*********/
+.section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    /* margin: 0 0 0 0; */
+}
+
+p {
+    /* margin-top: 0; */
+}
+
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+
+/***************BUTTONS**********/
+.button
+/* ,input[type="submit"]  */
+{
+    background-color: rgba(240, 240, 240, 0.603);
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 37px;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    color: rgb(51, 49, 49);
+    font-weight: 600;
+    letter-spacing: .15rem;
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 11px;
+}
+
+
+.button:hover {
+    background-color: rgba(240, 240, 240, 0.3);
+}
+
+.primary-button {
+    color: white;
+    background-color: rgba(24, 196, 226, 0.788);
+    border: 0;
+}
+
+.primary-button:hover {
+    background-color: rgba(24, 196, 226, 0.488);
+}
+
+.more .button {
+    background-color: rgb(248, 146, 12);
+    color: white;
+}
+
+.more .button:hover {
+    background-color: rgb(245, 184, 106);
+    color: white;
+}
+
+/***************HEADER***********/
+.header {
+    background-image: url(/imgs/header.jpg);
+    background-size: cover;
+    /* padding-bottom: 30px; */
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.nav a {
+    width: 23%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h2 {
+    /* margin-bottom: 30px; */
+}
+
+/***************INFO*************/
+.info {
+    background-color: white;
+}
+
+.info h2 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.boxes div {
+    background-color: rgb(218, 216, 216);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 250px;
+    display: flex;
+    flex-flow: column;
+}
+
+.boxes .more {
+    margin-top: auto;
+    /* margin-bottom: 0; */
+}
+
+
+/***************FOOTER***********/
+.footer {
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    /* margin-top: 10px;  */
+    /* padding-left: 30px;  */
+    /* padding-right: 30px; */
+    padding: 30px;
+}
+
+.copyright {
+    flex: 2 2 500px;
+    /* margin-bottom: 20px; */
+   
+}
+
+.signup {
+    flex: 1 1 250px;
+    /* margin-bottom: 20px; */
+}
+
+.footer form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.signup label {
+    width: 100%;
+    font-weight: 600;
+    /* margin-bottom: .5rem; */
+}
+
+.signup input[type="email"] {
+    flex: 1;
+    border-radius: 4px 0 0 4px;
+    border: 0;
+    /* padding: 0 10px; */
+    /* height: 38px; */
+
+}
+
+.signup input[type="submit"] {
+    border-radius: 0 4px 4px 0;
+    /* padding: 0 10px; */
+    /* height: 38px; */
+}
+
+  
+  
+
+/***************MEDIA QUERY***********/
+@media (max-width: 510px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav a {
+        width: 100%;
+        /* margin-bottom: 5px; */
+    }
+}
