@@ -1,0 +1,57 @@
+.box-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(126, 252, 0, 0.281);
+
+}
+
+.box-container div {
+    flex: 1 1 150px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.button {
+    background-color: rgba(255, 0, 0, 0.342);
+
+}
+
+.inner {
+    background-color: rgba(65, 105, 225, 0.452);
+    margin-top: auto;
+}
+
+div a {
+    margin-top: auto;
+}
+
+
+
+
+.f {
+    display: flex
+}
+
+.f div {
+    border: 1px solid
+}
+
+.def {
+    flex: 1; /*1 1 auto*/
+}
+
+.zero {
+     flex-basis: 0 /*0 1 0 */
+   
+}
+
+.auto { /* 0 1 auto */
+    flex-basis: auto
+}
+
+.custom {
+    flex: 0 1 auto;
+
+}
