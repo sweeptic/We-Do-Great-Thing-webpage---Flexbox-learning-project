@@ -52,6 +52,6 @@ div a {
 }
 
 .custom {
-    flex: 0 1 auto;
+    flex: 1 1 100;
 
 }
