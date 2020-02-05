@@ -7,22 +7,33 @@ html {
     font-size: 62.5%;
 }
 
+p, h1, h2 {
+    margin: 0;
+}
+
+input {
+    padding: 0;
+    border: 0;
+}
+
+
 body {
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
-}
-
-body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+/********BUTTONS************/
+.button {
+    background-color: rgba(128, 128, 128, 0.733);
+}
 
-.footer {
-    margin-top: auto;
+.primary-button {
+    background-color: rgba(44, 153, 255, 0.733);
 }
 
 
@@ -40,4 +51,5 @@ body {
 /********FOOTER************/
 .footer {
     background-color: rgba(255, 127, 80, 0.24);
+    margin-top: auto;
 }
