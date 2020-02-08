@@ -101,7 +101,6 @@ h6 {
 .button,
 .submit-button {
     text-align: center;
-    white-space: nowrap;
     padding: 0 30px;
     height: 38px;
     display: inline-block;
@@ -189,6 +188,8 @@ h6 {
 
 .nav a {
     width: 23%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /********MAIN************/
@@ -292,10 +293,27 @@ legend {
 }
 
 @media (min-width: 550px) {
-    h1 { font-size: 5.0rem; }
-    h2 { font-size: 4.2rem; }
-    h3 { font-size: 3.6rem; }
-    h4 { font-size: 3.0rem; }
-    h5 { font-size: 2.4rem; }
-    h6 { font-size: 1.5rem; }
-  }
+    h1 {
+        font-size: 5.0rem;
+    }
+
+    h2 {
+        font-size: 4.2rem;
+    }
+
+    h3 {
+        font-size: 3.6rem;
+    }
+
+    h4 {
+        font-size: 3.0rem;
+    }
+
+    h5 {
+        font-size: 2.4rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
+    }
+}
