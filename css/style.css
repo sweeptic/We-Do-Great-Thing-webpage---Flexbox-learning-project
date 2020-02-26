@@ -20,7 +20,7 @@ body {
 }
 
 .section {
-    max-width: 960px;
+    max-width: 110rem;
     margin: 0 auto;
     padding: 20px;
 }
