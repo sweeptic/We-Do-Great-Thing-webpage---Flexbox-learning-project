@@ -160,8 +160,9 @@ h6 {
 
 
 .header {
-    background-image: url(/imgs/header.jpg);
+    background-image: url(../imgs/photo-1495576775051-8af0d10f19b1.jpg);
     background-size: cover;
+    background-position: top;
 }
 
 .info {
